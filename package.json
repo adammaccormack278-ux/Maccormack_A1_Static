@@ -3,6 +3,7 @@
     "@11ty/eleventy": "^3.1.8",
     "@tailwindcss/cli": "^4.3.3",
     "concurrently": "^10.0.6",
+    "netlify-cli": "^27.20.1",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
   },
