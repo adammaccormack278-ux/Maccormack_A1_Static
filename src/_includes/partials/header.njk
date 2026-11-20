@@ -1,0 +1,15 @@
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Rainbow Six Siege home">
+    <span class="brand-mark" aria-hidden="true">R6</span>
+    <span>RAINBOW SIX</span>
+  </a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+    <span></span><span></span><span></span>
+    <span class="sr-only">Toggle navigation</span>
+  </button>
+  <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+    <a href="/"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+    <a href="/operators/"{% if page.url == '/operators/' %} aria-current="page"{% endif %}>Operators</a>
+    <a href="/maps/"{% if page.url == '/maps/' %} aria-current="page"{% endif %}>Maps</a>
+  </nav>
+</header>
